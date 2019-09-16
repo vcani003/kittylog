@@ -1,0 +1,171 @@
+[debug] [2018-04-06T02:27:58.304Z] ----------------------------------------------------------------------
+[debug] [2018-04-06T02:27:58.305Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\veron\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-06T02:27:58.306Z] CLI Version:   3.17.7
+[debug] [2018-04-06T02:27:58.306Z] Platform:      win32
+[debug] [2018-04-06T02:27:58.306Z] Node Version:  v9.10.1
+[debug] [2018-04-06T02:27:58.306Z] Time:          Thu Apr 05 2018 22:27:58 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T02:27:58.306Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-06T02:27:58.317Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-06T02:27:58.318Z] > authorizing via signed-in user
+[debug] [2018-04-06T02:27:58.320Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/kittylog-a726c  
+  
+ Thu Apr 05 2018 22:27:58 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T02:27:58.848Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-06T02:27:58.849Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/kittylog-a726c/tokens  
+  
+ Thu Apr 05 2018 22:27:58 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T02:27:59.252Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-06T02:27:59.253Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/kittylog-a726c  
+  
+ Thu Apr 05 2018 22:27:59 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T02:27:59.527Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\veron\Desktop\kittylog'...
+[info] 
+[debug] [2018-04-06T02:27:59.530Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/56964927869/clients/_:getWebAppConfig  
+  
+ Thu Apr 05 2018 22:27:59 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T02:27:59.955Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-06T23:40:44.079Z] ----------------------------------------------------------------------
+[debug] [2018-04-06T23:40:44.081Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\veron\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-06T23:40:44.081Z] CLI Version:   3.17.7
+[debug] [2018-04-06T23:40:44.081Z] Platform:      win32
+[debug] [2018-04-06T23:40:44.081Z] Node Version:  v9.10.1
+[debug] [2018-04-06T23:40:44.082Z] Time:          Fri Apr 06 2018 19:40:44 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T23:40:44.082Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-06T23:40:44.097Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-06T23:40:44.098Z] > authorizing via signed-in user
+[debug] [2018-04-06T23:40:44.100Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-04-06T23:40:44.100Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/J4VMVPaTkRiUIBn9Jz4GJmC68b_oue-Pj1gqed9d5us',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Apr 06 2018 19:40:44 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T23:40:44.341Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-06T23:40:44.347Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/kittylog-a726c  
+  
+ Fri Apr 06 2018 19:40:44 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T23:40:44.803Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-06T23:40:44.803Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/kittylog-a726c/tokens  
+  
+ Fri Apr 06 2018 19:40:44 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T23:40:45.226Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-06T23:40:45.227Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/kittylog-a726c  
+  
+ Fri Apr 06 2018 19:40:45 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T23:40:45.459Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\veron\Desktop\kittylog'...
+[info] 
+[debug] [2018-04-06T23:40:45.461Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/56964927869/clients/_:getWebAppConfig  
+  
+ Fri Apr 06 2018 19:40:45 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T23:40:45.805Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-06T23:44:02.048Z] ----------------------------------------------------------------------
+[debug] [2018-04-06T23:44:02.050Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\veron\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-06T23:44:02.050Z] CLI Version:   3.17.7
+[debug] [2018-04-06T23:44:02.050Z] Platform:      win32
+[debug] [2018-04-06T23:44:02.050Z] Node Version:  v9.10.1
+[debug] [2018-04-06T23:44:02.051Z] Time:          Fri Apr 06 2018 19:44:02 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T23:44:02.051Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-06T23:44:02.062Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-06T23:44:02.062Z] > authorizing via signed-in user
+[debug] [2018-04-06T23:44:02.064Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/kittylog-a726c  
+  
+ Fri Apr 06 2018 19:44:02 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T23:44:02.633Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-06T23:44:02.634Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/kittylog-a726c/tokens  
+  
+ Fri Apr 06 2018 19:44:02 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T23:44:03.077Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-06T23:44:03.077Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/kittylog-a726c  
+  
+ Fri Apr 06 2018 19:44:03 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T23:44:03.348Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\veron\Desktop\kittylog'...
+[info] 
+[debug] [2018-04-06T23:44:03.349Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/56964927869/clients/_:getWebAppConfig  
+  
+ Fri Apr 06 2018 19:44:03 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T23:44:03.749Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-06T23:48:33.113Z] ----------------------------------------------------------------------
+[debug] [2018-04-06T23:48:33.115Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\veron\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-06T23:48:33.115Z] CLI Version:   3.17.7
+[debug] [2018-04-06T23:48:33.115Z] Platform:      win32
+[debug] [2018-04-06T23:48:33.115Z] Node Version:  v9.10.1
+[debug] [2018-04-06T23:48:33.115Z] Time:          Fri Apr 06 2018 19:48:33 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T23:48:33.115Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-06T23:48:33.126Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-06T23:48:33.127Z] > authorizing via signed-in user
+[debug] [2018-04-06T23:48:33.129Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/kittylog-a726c  
+  
+ Fri Apr 06 2018 19:48:33 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T23:48:33.568Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-06T23:48:33.569Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/kittylog-a726c/tokens  
+  
+ Fri Apr 06 2018 19:48:33 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T23:48:33.917Z] <<< HTTP RESPONSE 200
+[debug] [2018-04-06T23:48:33.918Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/kittylog-a726c  
+  
+ Fri Apr 06 2018 19:48:33 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T23:48:34.148Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\veron\Desktop\kittylog'...
+[info] 
+[debug] [2018-04-06T23:48:34.150Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/56964927869/clients/_:getWebAppConfig  
+  
+ Fri Apr 06 2018 19:48:34 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-06T23:48:34.526Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-04-07T00:12:53.996Z] ----------------------------------------------------------------------
+[debug] [2018-04-07T00:12:53.998Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\veron\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-07T00:12:53.998Z] CLI Version:   3.17.7
+[debug] [2018-04-07T00:12:53.998Z] Platform:      win32
+[debug] [2018-04-07T00:12:53.999Z] Node Version:  v9.10.1
+[debug] [2018-04-07T00:12:53.999Z] Time:          Fri Apr 06 2018 20:12:53 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-07T00:12:53.999Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-07T00:12:54.010Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-07T00:12:54.010Z] > authorizing via signed-in user
+[debug] [2018-04-07T00:12:54.012Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/kittylog-a726c  
+  
+ Fri Apr 06 2018 20:12:54 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-07T00:12:54.056Z] Error: getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+[debug] [2018-04-07T00:13:41.184Z] ----------------------------------------------------------------------
+[debug] [2018-04-07T00:13:41.186Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\veron\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-04-07T00:13:41.186Z] CLI Version:   3.17.7
+[debug] [2018-04-07T00:13:41.186Z] Platform:      win32
+[debug] [2018-04-07T00:13:41.186Z] Node Version:  v9.10.1
+[debug] [2018-04-07T00:13:41.187Z] Time:          Fri Apr 06 2018 20:13:41 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-07T00:13:41.187Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-04-07T00:13:41.197Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-04-07T00:13:41.198Z] > authorizing via signed-in user
+[debug] [2018-04-07T00:13:41.200Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/kittylog-a726c  
+  
+ Fri Apr 06 2018 20:13:41 GMT-0400 (Eastern Daylight Time)
+[debug] [2018-04-07T00:13:41.243Z] Error: getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
